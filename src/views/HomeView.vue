@@ -373,7 +373,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
       <h5 class="text-7xl text-left font-bold p-2">Mind Map</h5>
       <h1 class="text-xl text-left font-san p-2">I make mind map for the first step of brain storming the project for stakeholder.</h1>
     <h1 class="text-4xl text-left font-sam p-2 "></h1>
-    <img class="rounded-[30px] w-[1500px] h-[600px] p-2 items-center" src="/Mobile Application UI.png" alt="">
+    <img class="rounded-[30px] w-[1500px] h-[600px] p-2 items-center" src="/MobileApplicationUI.png" alt="">
     </div>
   </div>
 
@@ -389,7 +389,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
       <h5 class="text-7xl text-left font-bold p-2">User Story</h5>
       <h1 class="text-xl text-left font-san p-2">I make mind map for the first step of brain storming the project for stakeholder.</h1>
     <h1 class="text-4xl text-left font-sam p-2 "></h1>
-    <img class="rounded-[30px] w-[1500px] h-[600px] p-2 items-center" src="/Mobile Application UI.png" alt="">
+    <img class="rounded-[30px] w-[1500px] h-[600px] p-2 items-center" src="/MobileApplicationUI.png" alt="">
     </div>
   </div>
 
@@ -405,7 +405,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
       <h5 class="text-7xl text-left font-bold p-2">Business Flow</h5>
       <h1 class="text-xl text-left font-san p-2">I make mind map for the first step of brain storming the project for stakeholder.</h1>
     <h1 class="text-4xl text-left font-sam p-2 "></h1>
-    <img class="rounded-[30px] w-[1500px] h-[600px] p-2 items-center" src="/Mobile Application UI.png" alt="">
+    <img class="rounded-[30px] w-[1500px] h-[600px] p-2 items-center" src="/MobileApplicationUI.png" alt="">
     </div>
   </div>
 
