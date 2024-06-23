@@ -27,8 +27,8 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
             <li class="text-white">
               <a class="p-4 hover:underline decoration-sky-400 underline-offset-4" href="#">Home</a>
               <a class="p-4 hover:underline decoration-sky-400 underline-offset-4" href="#2nd">About</a>
-              <a class="p-4 hover:underline decoration-sky-400 underline-offset-4" href="#3nd">Skills</a>
-              <a class="p-4 hover:underline decoration-sky-400 underline-offset-4" href="#4rd">Contact</a>
+              <a class="p-4 hover:underline decoration-sky-400 underline-offset-4" href="#3rd">Skills</a>
+              <a class="p-4 hover:underline decoration-sky-400 underline-offset-4" href="#4th">Contact</a>
             </li>
           </ul>
         </div>
@@ -117,13 +117,6 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
       <div class=" col-span-3">
         <div class="flex justify-between items-center">
           <h5 class="text-6xl text-left font-bold p-2">Hi, I'm Vey.</h5>
-
-          <label class="relative inline-flex items-center cursor-pointer">
-            <input type="checkbox" value="" class="sr-only peer">
-            <div @click="toggleDark()" class="w-14 h-7 bg-gray-400  rounded-full peer peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-0.5 after:left-[4px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-6 after:w-6 after:transition-all peer-checked:bg-sky-400">
-            </div>
-            <span class="ml-3 text-sm font-medium text-gray-300">Switch Mode</span>
-          </label>
         </div>
         <div class="p-2">
           <p class="text-lg font-sans">I am a student and full time product owner.</p>
@@ -252,12 +245,14 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
           <p class="text-lg font-mono">I do agile, code and Design.<span class="text-3xl">👋🏻</span></p>
         </div>
         <div class="flex justify-center items-start pt-4">
-          <label class="relative inline-flex items-center cursor-pointer">
+
+         <!--<label class="relative inline-flex items-center cursor-pointer">
             <input type="checkbox" value="" class="sr-only peer">
             <div @click="toggleDark()" class="w-14 h-7 bg-gray-400  rounded-full peer peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-0.5 after:left-[4px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-6 after:w-6 after:transition-all peer-checked:bg-sky-400 after:delay-125 after:duration-175">
             </div>
             <span class="ml-3 text-sm font-medium text-gray-300">Switch Mode</span>
-          </label>
+          </label> -->
+
         </div>
       </div>
       <div
@@ -364,57 +359,97 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
 
 <!-- SKILLS and PROJECTS SECTION -->
 
-<main id="3rd" class="container max-w-full min-h-screen bg-black flex justify-center items-center">
+<!-- Mind Up -->
+<main id="3rd" class="container max-w-full lg:min-h-screen min-h-full bg-black flex justify-center items-center">
 
-<div
-  class="lg:w-[1500px] lg:h-[800px] lg:bg-neutral-900 lg:text-white lg:rounded-[45px] lg:p-4">
-  <div class=" rounded-[30px}">
-    <div class="inline-block justify-between items-center">
+<div class="lg:w-[1500px] lg:h-[800px] lg:bg-neutral-900 lg:text-white lg:rounded-[45px] lg:grid-cols-4 lg:grid lg:grid-rows-3 lg:gap-4 lg:p-4 hidden">
+  <div class="rounded-[30px] col-span-1 row-span-3">
       <h5 class="text-7xl text-left font-bold p-2">Mind Map</h5>
-      <h1 class="text-xl text-left font-san p-2">I make mind map for the first step of brain storming the project for stakeholder.</h1>
-    <h1 class="text-4xl text-left font-sam p-2 "></h1>
-    <img class="rounded-[30px] w-[1500px] h-[600px] p-2 items-center" src="/MobileApplicationUI.png" alt="">
+      <h1 class="text-lg text-left font-san p-2 pb-10">I make mind map as the first step of brain storming the project for stakeholder.</h1>
+      <a class="cursor-pointer p-4 ml-2 border border-1 hover:bg-white hover:text-black transition duration-100 delay-100" href="#buss">Keep Exploring</a>
+  </div>
+  <div class="rounded-[30px] col-span-3 row-span-3">
+    <img class="lg:rounded-[30px] lg:w-[1500px] lg:h-[630px] p-2 items-center" src="/MobileApplicationUI.png" alt="">
+    <h1 class="text-sm text-center font-san p-2">I make mind map as the first step of brain storming the project for stakeholder.</h1>
+  </div>
+</div>
+
+<div class=" w-[600px] h-[500px] bg-neutral-900 text-white inline lg:hidden">
+  <div class=" rounded-[30px] p-2">
+    <div class="inline-block justify-between items-center">
+      <h5 class="text-6xl text-center font-bold p-2">Mind Map</h5>
+      <h1 class="text-sm text-center font-san p-2">I make mind map as the first step of brain storming the project for stakeholder.</h1>
+    <img class="rounded-[30px] h-[350px] p-2 items-center" src="/MobileApplicationUI.png" alt="">
     </div>
   </div>
-
 </div>
+
 </main>
 
-<main class="container max-w-full min-h-screen bg-black flex justify-center items-center">
+<!-- Mind Up -->
 
-<div
-  class="lg:w-[1500px] lg:h-[800px] lg:bg-neutral-900 lg:text-white lg:rounded-[45px] lg:p-4">
-  <div class=" rounded-[30px}">
-    <div class="inline-block justify-between items-center">
-      <h5 class="text-7xl text-left font-bold p-2">User Story</h5>
-      <h1 class="text-xl text-left font-san p-2">I make mind map for the first step of brain storming the project for stakeholder.</h1>
-    <h1 class="text-4xl text-left font-sam p-2 "></h1>
-    <img class="rounded-[30px] w-[1500px] h-[600px] p-2 items-center" src="/MobileApplicationUI.png" alt="">
-    </div>
-  </div>
+<!-- Business Flow -->
 
-</div>
-</main>
+<main id="buss" class="container max-w-full lg:min-h-screen min-h-full bg-black flex justify-center items-center">
 
-<main class="container max-w-full min-h-screen bg-black flex justify-center items-center">
-
-<div
-  class="lg:w-[1500px] lg:h-[800px] lg:bg-neutral-900 lg:text-white lg:rounded-[45px] lg:p-4">
-  <div class=" rounded-[30px}">
-    <div class="inline-block justify-between items-center">
+  <div class="lg:w-[1500px] lg:h-[800px] lg:bg-neutral-900 lg:text-white lg:rounded-[45px] lg:grid-cols-4 lg:grid lg:grid-rows-3 lg:gap-4 lg:p-4 hidden">
+  <div class="rounded-[30px] col-span-1 row-span-3">
       <h5 class="text-7xl text-left font-bold p-2">Business Flow</h5>
-      <h1 class="text-xl text-left font-san p-2">I make mind map for the first step of brain storming the project for stakeholder.</h1>
-    <h1 class="text-4xl text-left font-sam p-2 "></h1>
-    <img class="rounded-[30px] w-[1500px] h-[600px] p-2 items-center" src="/MobileApplicationUI.png" alt="">
+      <h1 class="text-lg text-left font-san p-2 pb-10">I make mind map as the first step of brain storming the project for stakeholder.</h1>
+      <a class="cursor-pointer p-4 ml-2 border border-1 hover:bg-white hover:text-black transition duration-100 delay-100" href="#user">Keep Exploring</a>
+  </div>
+  <div class="rounded-[30px] col-span-3 row-span-3">
+    <img class="lg:rounded-[30px] lg:w-[1500px] lg:h-[630px] p-2 items-center" src="/Businessflow.png" alt="">
+    <h1 class="text-sm text-center font-san p-2">I make mind map as the first step of brain storming the project for stakeholder.</h1>
+  </div>
+</div>
+
+<div class=" w-[600px] h-[500px] bg-neutral-900 text-white inline-block lg:hidden">
+  <div class=" rounded-[30px] p-2">
+    <div class="inline-block justify-between items-center">
+      <h5 class="text-6xl text-center font-bold p-2">Business Flow</h5>
+      <h1 class="text-sm text-center font-san p-2">I make mind map as the first step of brain storming the project for stakeholder.</h1>
+    <img class="rounded-[30px] w-[450px] h-[350px] p-2 items-center" src="/Businessflow.png" alt="">
     </div>
   </div>
-
 </div>
 </main>
+
+<!-- Business Flow -->
+
+<!-- User Story -->
+
+<main id="user" class="container max-w-full lg:min-h-screen min-h-full bg-black flex justify-center items-center">
+
+  <div class="lg:w-[1500px] lg:h-[800px] lg:bg-neutral-900 lg:text-white lg:rounded-[45px] lg:grid-cols-4 lg:grid lg:grid-rows-3 lg:gap-4 lg:p-4 hidden">
+  <div class="rounded-[30px] col-span-1 row-span-3">
+      <h5 class="text-7xl text-left font-bold p-2">User Story</h5>
+      <h1 class="text-lg text-left font-san p-2 pb-10">I make mind map as the first step of brain storming the project for stakeholder.</h1>
+      <a class="cursor-pointer p-4 ml-2 border border-1 hover:bg-white hover:text-black transition duration-100 delay-100" href="#4th">Keep Exploring</a>
+  </div>
+  <div class="rounded-[30px] col-span-3 row-span-3">
+    <img class="lg:rounded-[30px] lg:w-[1500px] lg:h-[630px] p-2 items-center" src="/MobileApplicationUI.png" alt="">
+    <h1 class="text-sm text-center font-san p-2">I make mind map as the first step of brain storming the project for stakeholder.</h1>
+  </div>
+</div>
+
+<div class=" w-[600px] h-[500px] bg-neutral-900 text-white inline-block lg:hidden">
+  <div class=" rounded-[30px] p-2">
+    <div class="inline-block justify-between items-center">
+      <h5 class="text-6xl text-center font-bold p-2">User Story</h5>
+      <h1 class="text-sm text-center font-san p-2">I make mind map as the first step of brain storming the project for stakeholder.</h1>
+    <img class="rounded-[30px] w-[450px] h-[350px] p-2 items-center" src="/Businessflow.png" alt="">
+    </div>
+  </div>
+</div>
+
+</main>
+
+<!-- User Story -->
 
 <!-- SKILLS and PROJECTS SECTION -->
 
-  <main id="4rd" class="container max-w-full min-h-screen bg-black flex justify-center items-center">
+  <main id="4th" class="container max-w-full min-h-screen bg-black flex justify-center items-center">
 
     <div
       class="lg:w-[1500px] lg:h-[800px] lg:bg-neutral-900 lg:text-white lg:rounded-[45px] lg:grid-cols-4 lg:grid lg:grid-rows-3 lg:gap-4 lg:p-4 hidden">
@@ -422,8 +457,8 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
         <div class="flex justify-between items-center">
           <h5 class="text-7xl text-left font-bold p-2">Contact</h5>
         </div>
-        <h1 class="text-4xl text-left font-san pl-2 "></h1>
-        <h1 class="text-4xl text-left font-sam pl-2 "></h1>
+        <h1 class="text-xl text-left font-san pl-2 ">Here is my contact information</h1>
+        <h1 class="text-xl text-left font-sam pl-2 "></h1>
       </div>
 
       <div class=" bg-white rounded-[30px] col-span-2 p-4 flex justify-between">
