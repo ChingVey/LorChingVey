@@ -377,7 +377,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
     <div class="inline-block justify-between items-center">
       <h5 class="text-4xl text-center font-bold p-2">Mind Map</h5>
       <h1 class="text-sm text-center font-san p-2">A mind map is a diagram used to visually organize information into a hierarchy, showing relationships among pieces of the whole. It is often created around a single concept, drawn as an image in the center of a blank page, to which associated representations of ideas such as images, words and parts of words are added.</h1>
-    <img class="rounded-[30px] h-[400px] sm:w-[1000px] p-2 items-center bg-violet-800 mt-4" src="/MobileApplicationUI.png" alt="">
+    <img class="rounded-[30px] h-[350px] sm:w-[1000px] p-2 items-center bg-violet-800 mt-4" src="/MobileApplicationUI.png" alt="">
     </div>
   </div>
 </div>
@@ -407,7 +407,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
     <div class="inline-block justify-center items-center">
       <h5 class="text-4xl text-center font-bold p-2">Business Flow</h5>
       <h1 class="text-sm text-center font-san p-2">A business process, business method, or business function is a collection of related, structured activities or tasks performed by people or equipment in which a specific sequence produces a service or product for a particular customer or customers.</h1>
-    <img class="rounded-[30px] h-[400px] sm:w-[1000px] p-2 items-center bg-violet-800 mt-4" src="/MobileApplicationUI.png" alt="">
+    <img class="rounded-[30px] h-[350px] sm:w-[1000px] p-2 items-center bg-violet-800 mt-4" src="/MobileApplicationUI.png" alt="">
     </div>
   </div>
 </div>
@@ -437,7 +437,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
     <div class="inline-block justify-between items-center">
       <h5 class="text-4xl text-center font-bold p-2">User Story</h5>
       <h1 class="text-sm text-center font-san p-2">In software development and product management, a user story is an informal, natural language description of features of a software system. They are written from the perspective of an end user or user of a system, and may be recorded on index cards, Post-it notes, or digitally in specific management software.</h1>
-    <img class="rounded-[30px] h-[400px] sm:w-[1000px] p-2 items-center bg-violet-800 mt-4" src="/MobileApplicationUI.png" alt="">
+    <img class="rounded-[30px] h-[350px] sm:w-[1000px] p-2 items-center bg-violet-800 mt-4" src="/MobileApplicationUI.png" alt="">
     </div>
   </div>
 </div>
