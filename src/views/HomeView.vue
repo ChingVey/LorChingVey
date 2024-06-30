@@ -363,7 +363,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
 <div class="lg:w-[1500px] lg:h-[800px] lg:bg-neutral-900 lg:text-white lg:rounded-[45px] lg:grid-cols-4 lg:grid lg:grid-rows-3 lg:gap-4 lg:p-4 hidden">
   <div class="rounded-[30px] col-span-1 row-span-3">
       <h5 class="lg:text-5xl xl:text-7xl text-left font-bold p-2">Mind Map</h5>
-      <h1 class="text-md text-left font-san p-2 pb-10">A mind map is a diagram used to visually organize information into a hierarchy, showing relationships among pieces of the whole.</h1>
+      <h1 class="text-md text-left font-san p-2 pb-10">A mind map is a diagram used to visually organize information into a hierarchy, showing relationships among pieces of the whole. It is often created around a single concept, drawn as an image in the center of a blank page, to which associated representations of ideas such as images, words and parts of words are added.</h1>
       <a class="cursor-pointer p-4 ml-2 border border-1 hover:bg-white hover:text-black transition duration-100 delay-100" href="#buss">Keep Exploring</a>
   </div>
   <div class="rounded-[30px] col-span-3 row-span-3">
@@ -372,12 +372,12 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
   </div>
 </div>
 
-<div class=" w-[1000px] h-[600px] bg-neutral-900 text-white justify-center items-center flex lg:hidden">
-  <div class=" rounded-[30px] p-2">
+<div class="w-[1000px] h-[600px] bg-neutral-900 text-white justify-center items-center flex lg:hidden">
+  <div class="rounded-[30px] p-4">
     <div class="inline-block justify-between items-center">
       <h5 class="text-4xl text-center font-bold p-2">Mind Map</h5>
-      <h1 class="text-sm text-center font-san p-2">I make mind map as the first step of brain storming the project for stakeholder.</h1>
-    <img class="rounded-[30px] h-[350px] p-2 items-center" src="/MobileApplicationUI.png" alt="">
+      <h1 class="text-sm text-center font-san p-2">A mind map is a diagram used to visually organize information into a hierarchy, showing relationships among pieces of the whole. It is often created around a single concept, drawn as an image in the center of a blank page, to which associated representations of ideas such as images, words and parts of words are added.</h1>
+    <img class="rounded-[30px] h-[400px] sm:w-[1000px] p-2 items-center bg-violet-800 mt-4" src="/MobileApplicationUI.png" alt="">
     </div>
   </div>
 </div>
@@ -393,7 +393,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
 <div class="lg:w-[1500px] lg:h-[800px] lg:bg-neutral-900 lg:text-white lg:rounded-[45px] lg:grid-cols-4 lg:grid lg:grid-rows-3 lg:gap-4 lg:p-4 hidden">
   <div class="rounded-[30px] col-span-1 row-span-3">
       <h5 class="lg:text-5xl xl:text-7xl text-left font-bold p-2">Business Flow</h5>
-      <h1 class="text-md text-left font-san p-2 pb-10">I make mind map as the first step of brain storming the project for stakeholder.</h1>
+      <h1 class="text-md text-left font-san p-2 pb-10">A business process, business method, or business function is a collection of related, structured activities or tasks performed by people or equipment in which a specific sequence produces a service or product for a particular customer or customers.</h1>
       <a class="cursor-pointer p-4 ml-2 border border-1 hover:bg-white hover:text-black transition duration-100 delay-100" href="#user">Keep Exploring</a>
   </div>
   <div class="rounded-[30px] col-span-3 row-span-3">
@@ -403,11 +403,11 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
 </div>
 
 <div class=" w-[1000px] h-[600px] bg-neutral-900 text-white justify-center items-center flex lg:hidden">
-  <div class=" rounded-[30px] p-2">
-    <div class="inline-block justify-between items-center">
+  <div class=" rounded-[30px] p-4">
+    <div class="inline-block justify-center items-center">
       <h5 class="text-4xl text-center font-bold p-2">Business Flow</h5>
-      <h1 class="text-sm text-center font-san p-2">I make mind map as the first step of brain storming the project for stakeholder.</h1>
-    <img class="rounded-[30px] h-[350px] p-2 items-center" src="/MobileApplicationUI.png" alt="">
+      <h1 class="text-sm text-center font-san p-2">A business process, business method, or business function is a collection of related, structured activities or tasks performed by people or equipment in which a specific sequence produces a service or product for a particular customer or customers.</h1>
+    <img class="rounded-[30px] h-[400px] sm:w-[1000px] p-2 items-center bg-violet-800 mt-4" src="/MobileApplicationUI.png" alt="">
     </div>
   </div>
 </div>
@@ -423,7 +423,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
 <div class="lg:w-[1500px] lg:h-[800px] lg:bg-neutral-900 lg:text-white lg:rounded-[45px] lg:grid-cols-4 lg:grid lg:grid-rows-3 lg:gap-4 lg:p-4 hidden">
   <div class="rounded-[30px] col-span-1 row-span-3">
       <h5 class="lg:text-5xl xl:text-7xl text-left font-bold p-2">User Story</h5>
-      <h1 class="text-md text-left font-san p-2 pb-10">I make mind map as the first step of brain storming the project for stakeholder.</h1>
+      <h1 class="text-md text-left font-san p-2 pb-10">In software development and product management, a user story is an informal, natural language description of features of a software system. They are written from the perspective of an end user or user of a system, and may be recorded on index cards, Post-it notes, or digitally in specific management software.</h1>
       <a class="cursor-pointer p-4 ml-2 border border-1 hover:bg-white hover:text-black transition duration-100 delay-100" href="#4th">Keep Exploring</a>
   </div>
   <div class="rounded-[30px] col-span-3 row-span-3">
@@ -433,11 +433,11 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
 </div>
 
 <div class=" w-[1000px] h-[600px] bg-neutral-900 text-white items-center justify-center flex lg:hidden">
-  <div class=" rounded-[30px] p-2">
+  <div class=" rounded-[30px] p-4">
     <div class="inline-block justify-between items-center">
       <h5 class="text-4xl text-center font-bold p-2">User Story</h5>
-      <h1 class="text-sm text-center font-san p-2">I make mind map as the first step of brain storming the project for stakeholder.</h1>
-    <img class="rounded-[30px] h-[350px] p-2 items-center" src="/MobileApplicationUI.png" alt="">
+      <h1 class="text-sm text-center font-san p-2">In software development and product management, a user story is an informal, natural language description of features of a software system. They are written from the perspective of an end user or user of a system, and may be recorded on index cards, Post-it notes, or digitally in specific management software.</h1>
+    <img class="rounded-[30px] h-[400px] sm:w-[1000px] p-2 items-center bg-violet-800 mt-4" src="/MobileApplicationUI.png" alt="">
     </div>
   </div>
 </div>
