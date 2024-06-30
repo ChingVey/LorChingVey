@@ -18,7 +18,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
 </script>
 
 <template>
-  <main class="container max-w-full min-h-screen bg-black flex justify-center items-center">
+  <main class="container max-w-full min-h-screen bg-black flex justify-center items-center lg:px-4 lg:pt-4">
     <div class="lg:w-[1500px] lg:h-[800px]">
       <div class="lg:block hidden bg-neutral-900 rounded-[45px] mb-6">
         <div class="flex justify-between items-center p-6">
@@ -43,7 +43,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
             <h5 class=" xl:text-6xl lg:text-5xl font-extrabold mb-10">DIGITAL PO AND BA</h5>
             <h1 class="xl:text-5xl lg:text-4xl font-bold"> Lor ChingVey</h1>
             <p class="font-bold text-lg pt-4">- Introduction</p>
-            <p class="text-3xl font-semibold pt-4">Product Owner, Business Analyst and<span class="block">UI Designer, based in Phnom Penh.</span>
+            <p class="text-3xl font-semibold pt-4"> Digital Product Owner and Business Analyst<span class="block"> based in Phnom Penh.</span>
             </p>
             <p class="text-md pt-4"><span class="text-4xl font-serif">"</span> For me willing to learn is a key to be mature <span class="text-4xl font-serif">"</span> </p>
             <div class="flex pt-8">
@@ -108,7 +108,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
 
 
 
-  <main id="2nd" class="container max-w-full min-h-screen bg-black flex justify-center items-center">
+  <main id="2nd" class="container max-w-full min-h-screen bg-black flex justify-center items-center lg:px-4">
 
     <div
       class="lg:w-[1500px] lg:h-[800px] lg:bg-neutral-900 lg:text-white lg:rounded-[45px] lg:grid-cols-4 lg:grid lg:grid-rows-3 lg:gap-4 lg:p-4 hidden">
@@ -358,17 +358,17 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
 <!-- SKILLS and PROJECTS SECTION -->
 
 <!-- Mind Up -->
-<main id="3rd" class="container max-w-full lg:min-h-screen min-h-full bg-black flex justify-center items-center">
+<main id="3rd" class="container max-w-full lg:min-h-screen min-h-full lg:py-12 lg:px-4 bg-black flex justify-center items-center">
 
 <div class="lg:w-[1500px] lg:h-[800px] lg:bg-neutral-900 lg:text-white lg:rounded-[45px] lg:grid-cols-4 lg:grid lg:grid-rows-3 lg:gap-4 lg:p-4 hidden">
   <div class="rounded-[30px] col-span-1 row-span-3">
-      <h5 class="text-7xl text-left font-bold p-2">Mind Map</h5>
-      <h1 class="text-lg text-left font-san p-2 pb-10">I make mind map as the first step of brain storming the project for stakeholder.</h1>
+      <h5 class="lg:text-5xl xl:text-7xl text-left font-bold p-2">Mind Map</h5>
+      <h1 class="text-md text-left font-san p-2 pb-10">A mind map is a diagram used to visually organize information into a hierarchy, showing relationships among pieces of the whole.</h1>
       <a class="cursor-pointer p-4 ml-2 border border-1 hover:bg-white hover:text-black transition duration-100 delay-100" href="#buss">Keep Exploring</a>
   </div>
   <div class="rounded-[30px] col-span-3 row-span-3">
     <img class="lg:rounded-[30px] lg:w-[1500px] lg:h-[630px] p-2 items-center" src="/MobileApplicationUI.png" alt="">
-    <h1 class="text-sm text-center font-san p-2">I make mind map as the first step of brain storming the project for stakeholder.</h1>
+    <h1 class="text-sm text-center font-san p-2">This is the mindmap that I've discussed with development team in order to build a SSO-Based System for the company project.</h1>
   </div>
 </div>
 
@@ -388,13 +388,13 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
 
 <!-- Business Flow -->
 
-<main id="3rd" class="container max-w-full lg:min-h-screen min-h-full bg-black flex justify-center items-center">
+<main id="buss" class="container max-w-full lg:min-h-screen min-h-full lg:py-12 lg:px-4 bg-black flex justify-center items-center">
 
 <div class="lg:w-[1500px] lg:h-[800px] lg:bg-neutral-900 lg:text-white lg:rounded-[45px] lg:grid-cols-4 lg:grid lg:grid-rows-3 lg:gap-4 lg:p-4 hidden">
   <div class="rounded-[30px] col-span-1 row-span-3">
-      <h5 class="text-7xl text-left font-bold p-2">Mind Map</h5>
-      <h1 class="text-lg text-left font-san p-2 pb-10">I make mind map as the first step of brain storming the project for stakeholder.</h1>
-      <a class="cursor-pointer p-4 ml-2 border border-1 hover:bg-white hover:text-black transition duration-100 delay-100" href="#buss">Keep Exploring</a>
+      <h5 class="lg:text-5xl xl:text-7xl text-left font-bold p-2">Business Flow</h5>
+      <h1 class="text-md text-left font-san p-2 pb-10">I make mind map as the first step of brain storming the project for stakeholder.</h1>
+      <a class="cursor-pointer p-4 ml-2 border border-1 hover:bg-white hover:text-black transition duration-100 delay-100" href="#user">Keep Exploring</a>
   </div>
   <div class="rounded-[30px] col-span-3 row-span-3">
     <img class="lg:rounded-[30px] lg:w-[1500px] lg:h-[630px] p-2 items-center" src="/MobileApplicationUI.png" alt="">
@@ -405,7 +405,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
 <div class=" w-[1000px] h-[600px] bg-neutral-900 text-white justify-center items-center flex lg:hidden">
   <div class=" rounded-[30px] p-2">
     <div class="inline-block justify-between items-center">
-      <h5 class="text-4xl text-center font-bold p-2">Mind Map</h5>
+      <h5 class="text-4xl text-center font-bold p-2">Business Flow</h5>
       <h1 class="text-sm text-center font-san p-2">I make mind map as the first step of brain storming the project for stakeholder.</h1>
     <img class="rounded-[30px] h-[350px] p-2 items-center" src="/MobileApplicationUI.png" alt="">
     </div>
@@ -418,13 +418,13 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
 
 <!-- User Story -->
 
-<main id="3rd" class="container max-w-full lg:min-h-screen min-h-full bg-black flex justify-center items-center">
+<main id="user" class="container max-w-full lg:min-h-screen min-h-full lg:py-12 lg:px-4 bg-black flex justify-center items-center">
 
 <div class="lg:w-[1500px] lg:h-[800px] lg:bg-neutral-900 lg:text-white lg:rounded-[45px] lg:grid-cols-4 lg:grid lg:grid-rows-3 lg:gap-4 lg:p-4 hidden">
   <div class="rounded-[30px] col-span-1 row-span-3">
-      <h5 class="text-7xl text-left font-bold p-2">Mind Map</h5>
-      <h1 class="text-lg text-left font-san p-2 pb-10">I make mind map as the first step of brain storming the project for stakeholder.</h1>
-      <a class="cursor-pointer p-4 ml-2 border border-1 hover:bg-white hover:text-black transition duration-100 delay-100" href="#buss">Keep Exploring</a>
+      <h5 class="lg:text-5xl xl:text-7xl text-left font-bold p-2">User Story</h5>
+      <h1 class="text-md text-left font-san p-2 pb-10">I make mind map as the first step of brain storming the project for stakeholder.</h1>
+      <a class="cursor-pointer p-4 ml-2 border border-1 hover:bg-white hover:text-black transition duration-100 delay-100" href="#4th">Keep Exploring</a>
   </div>
   <div class="rounded-[30px] col-span-3 row-span-3">
     <img class="lg:rounded-[30px] lg:w-[1500px] lg:h-[630px] p-2 items-center" src="/MobileApplicationUI.png" alt="">
@@ -435,7 +435,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
 <div class=" w-[1000px] h-[600px] bg-neutral-900 text-white items-center justify-center flex lg:hidden">
   <div class=" rounded-[30px] p-2">
     <div class="inline-block justify-between items-center">
-      <h5 class="text-4xl text-center font-bold p-2">Mind Map</h5>
+      <h5 class="text-4xl text-center font-bold p-2">User Story</h5>
       <h1 class="text-sm text-center font-san p-2">I make mind map as the first step of brain storming the project for stakeholder.</h1>
     <img class="rounded-[30px] h-[350px] p-2 items-center" src="/MobileApplicationUI.png" alt="">
     </div>
@@ -448,7 +448,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
 
 <!-- SKILLS and PROJECTS SECTION -->
 
-  <main id="4th" class="container max-w-full min-h-screen bg-black flex justify-center items-center">
+  <main id="4th" class="container max-w-full min-h-screen bg-black flex justify-center items-center lg:px-4">
 
     <div
       class="lg:w-[1500px] lg:h-[800px] lg:bg-neutral-900 lg:text-white lg:rounded-[45px] lg:grid-cols-4 lg:grid lg:grid-rows-3 lg:gap-4 lg:p-4 hidden">
