@@ -38,10 +38,10 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
       <div
         class=" lg:bg-neutral-900 lg:text-white lg:rounded-[45px] lg:grid-cols-4 lg:grid-row-3 lg:grid lg:gap-2 lg:p-4 hidden">
         <div class="col-span-4 flex justify-around items-center p-8">
-          <img class="w-[560px] object-cover bg-transparent" src="/Profile.png">
+          <img class="xl:w-[560px] lg:w-[450px] object-cover bg-transparent" src="/Profile.png">
           <div class="inlineblock">
-            <h5 class=" xl:text-7xl lg:text-5xl font-extrabold text-right mb-10">DIGITAL PO AND BA</h5>
-            <h1 class="text-6xl font-bold"> Lor ChingVey</h1>
+            <h5 class=" xl:text-6xl lg:text-5xl font-extrabold mb-10">DIGITAL PO AND BA</h5>
+            <h1 class="xl:text-5xl lg:text-4xl font-bold"> Lor ChingVey</h1>
             <p class="font-bold text-lg pt-4">- Introduction</p>
             <p class="text-3xl font-semibold pt-4">Product Owner, Business Analyst and<span class="block">UI Designer, based in Phnom Penh.</span>
             </p>
