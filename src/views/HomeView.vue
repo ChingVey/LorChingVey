@@ -36,18 +36,17 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
 
 
       <div
-        class=" lg:bg-neutral-900 lg:text-white lg:rounded-[45px] lg:grid-cols-4 lg:grid-row-3 lg:grid lg:gap-2 lg:p-4 lg:pt-12 hidden">
-        <div class="col-span-4">
-          <h5 class=" xl:text-8xl lg:text-7xl font-extrabold text-left pl-28">PRODUCT OWNER</h5>
-        </div>
-        <div class="col-span-4 flex justify-around items-center">
+        class=" lg:bg-neutral-900 lg:text-white lg:rounded-[45px] lg:grid-cols-4 lg:grid-row-3 lg:grid lg:gap-2 lg:p-4 hidden">
+        <div class="col-span-4 flex justify-around items-center p-8">
+          <img class="w-[560px] object-cover bg-transparent" src="/Profile.png">
           <div class="inlineblock">
+            <h5 class=" xl:text-7xl lg:text-5xl font-extrabold text-right mb-10">DIGITAL PO AND BA</h5>
             <h1 class="text-6xl font-bold"> Lor ChingVey</h1>
             <p class="font-bold text-lg pt-4">- Introduction</p>
             <p class="text-3xl font-semibold pt-4">Product Owner, Business Analyst and<span class="block">UI Designer, based in Phnom Penh.</span>
             </p>
             <p class="text-md pt-4"><span class="text-4xl font-serif">"</span> For me willing to learn is a key to be mature <span class="text-4xl font-serif">"</span> </p>
-            <div class="flex pt-4">
+            <div class="flex pt-8">
               <a href="#2nd"
                 class="p-4 border border-1 hover:bg-white hover:text-black transition duration-100 delay-100 mr-3">Get to
                 Know me</a>
@@ -56,7 +55,6 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
                 <a class="cursor-pointer p-4 border border-1 hover:bg-white hover:text-black transition duration-100 delay-100" href="/OfficialCV.pdf">Download CV</a>
             </div>
           </div>
-          <img class="w-[500px] object-cover bg-transparent" src="/Profile.jpg">
         </div>
       </div>
     </div>
@@ -78,7 +76,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
 
       <div class="inlineblock pt-8">
         <div class="flex justify-center items-center">
-          <img class="w-72 sm:w-80 md:w-96 object-cover bg-transparent" src="/Profile.jpg">
+          <img class="w-72 sm:w-80 md:w-96 object-cover bg-transparent" src="/Profile.png">
         </div>
         <h1 class="text-5xl sm:text-4xl md:text-5xl font-bold text-center pt-7"> Lor ChingVey</h1>
         <p class="font-bold text-xl pt-2 text-center">- Introduction</p>
@@ -259,7 +257,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
         class="bg-white rounded-[15px] text-center row-span-2 col-span-2 text-black p-4">
       <h1 class="text-2xl font-bold">EXPERINCES</h1>
     <div class="flex justify-center">
-      <img class="w-screen h-full pt-4" src="/Skills.png">
+      <img class="w-32 sm:w-40 md:w-48 pt-4" src="/Skills.png">
     </div>
       </div>
       <div class="bg-white rounded-[15px] text-left col-span-2 text-black">
@@ -374,10 +372,10 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
   </div>
 </div>
 
-<div class=" w-[600px] h-[500px] bg-neutral-900 text-white inline lg:hidden">
+<div class=" w-[1000px] h-[600px] bg-neutral-900 text-white justify-center items-center flex lg:hidden">
   <div class=" rounded-[30px] p-2">
     <div class="inline-block justify-between items-center">
-      <h5 class="text-6xl text-center font-bold p-2">Mind Map</h5>
+      <h5 class="text-4xl text-center font-bold p-2">Mind Map</h5>
       <h1 class="text-sm text-center font-san p-2">I make mind map as the first step of brain storming the project for stakeholder.</h1>
     <img class="rounded-[30px] h-[350px] p-2 items-center" src="/MobileApplicationUI.png" alt="">
     </div>
@@ -390,42 +388,13 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
 
 <!-- Business Flow -->
 
-<main id="buss" class="container max-w-full lg:min-h-screen min-h-full bg-black flex justify-center items-center">
+<main id="3rd" class="container max-w-full lg:min-h-screen min-h-full bg-black flex justify-center items-center">
 
-  <div class="lg:w-[1500px] lg:h-[800px] lg:bg-neutral-900 lg:text-white lg:rounded-[45px] lg:grid-cols-4 lg:grid lg:grid-rows-3 lg:gap-4 lg:p-4 hidden">
+<div class="lg:w-[1500px] lg:h-[800px] lg:bg-neutral-900 lg:text-white lg:rounded-[45px] lg:grid-cols-4 lg:grid lg:grid-rows-3 lg:gap-4 lg:p-4 hidden">
   <div class="rounded-[30px] col-span-1 row-span-3">
-      <h5 class="text-7xl text-left font-bold p-2">Business Flow</h5>
+      <h5 class="text-7xl text-left font-bold p-2">Mind Map</h5>
       <h1 class="text-lg text-left font-san p-2 pb-10">I make mind map as the first step of brain storming the project for stakeholder.</h1>
-      <a class="cursor-pointer p-4 ml-2 border border-1 hover:bg-white hover:text-black transition duration-100 delay-100" href="#user">Keep Exploring</a>
-  </div>
-  <div class="rounded-[30px] col-span-3 row-span-3">
-    <img class="lg:rounded-[30px] lg:w-[1500px] lg:h-[630px] p-2 items-center" src="/Businessflow.png" alt="">
-    <h1 class="text-sm text-center font-san p-2">I make mind map as the first step of brain storming the project for stakeholder.</h1>
-  </div>
-</div>
-
-<div class=" w-[600px] h-[500px] bg-neutral-900 text-white inline-block lg:hidden">
-  <div class=" rounded-[30px] p-2">
-    <div class="inline-block justify-between items-center">
-      <h5 class="text-6xl text-center font-bold p-2">Business Flow</h5>
-      <h1 class="text-sm text-center font-san p-2">I make mind map as the first step of brain storming the project for stakeholder.</h1>
-    <img class="rounded-[30px] w-[450px] h-[350px] p-2 items-center" src="/Businessflow.png" alt="">
-    </div>
-  </div>
-</div>
-</main>
-
-<!-- Business Flow -->
-
-<!-- User Story -->
-
-<main id="user" class="container max-w-full lg:min-h-screen min-h-full bg-black flex justify-center items-center">
-
-  <div class="lg:w-[1500px] lg:h-[800px] lg:bg-neutral-900 lg:text-white lg:rounded-[45px] lg:grid-cols-4 lg:grid lg:grid-rows-3 lg:gap-4 lg:p-4 hidden">
-  <div class="rounded-[30px] col-span-1 row-span-3">
-      <h5 class="text-7xl text-left font-bold p-2">User Story</h5>
-      <h1 class="text-lg text-left font-san p-2 pb-10">I make mind map as the first step of brain storming the project for stakeholder.</h1>
-      <a class="cursor-pointer p-4 ml-2 border border-1 hover:bg-white hover:text-black transition duration-100 delay-100" href="#4th">Keep Exploring</a>
+      <a class="cursor-pointer p-4 ml-2 border border-1 hover:bg-white hover:text-black transition duration-100 delay-100" href="#buss">Keep Exploring</a>
   </div>
   <div class="rounded-[30px] col-span-3 row-span-3">
     <img class="lg:rounded-[30px] lg:w-[1500px] lg:h-[630px] p-2 items-center" src="/MobileApplicationUI.png" alt="">
@@ -433,12 +402,42 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
   </div>
 </div>
 
-<div class=" w-[600px] h-[500px] bg-neutral-900 text-white inline-block lg:hidden">
+<div class=" w-[1000px] h-[600px] bg-neutral-900 text-white justify-center items-center flex lg:hidden">
   <div class=" rounded-[30px] p-2">
     <div class="inline-block justify-between items-center">
-      <h5 class="text-6xl text-center font-bold p-2">User Story</h5>
+      <h5 class="text-4xl text-center font-bold p-2">Mind Map</h5>
       <h1 class="text-sm text-center font-san p-2">I make mind map as the first step of brain storming the project for stakeholder.</h1>
-    <img class="rounded-[30px] w-[450px] h-[350px] p-2 items-center" src="/Businessflow.png" alt="">
+    <img class="rounded-[30px] h-[350px] p-2 items-center" src="/MobileApplicationUI.png" alt="">
+    </div>
+  </div>
+</div>
+
+</main>
+
+<!-- Business Flow -->
+
+<!-- User Story -->
+
+<main id="3rd" class="container max-w-full lg:min-h-screen min-h-full bg-black flex justify-center items-center">
+
+<div class="lg:w-[1500px] lg:h-[800px] lg:bg-neutral-900 lg:text-white lg:rounded-[45px] lg:grid-cols-4 lg:grid lg:grid-rows-3 lg:gap-4 lg:p-4 hidden">
+  <div class="rounded-[30px] col-span-1 row-span-3">
+      <h5 class="text-7xl text-left font-bold p-2">Mind Map</h5>
+      <h1 class="text-lg text-left font-san p-2 pb-10">I make mind map as the first step of brain storming the project for stakeholder.</h1>
+      <a class="cursor-pointer p-4 ml-2 border border-1 hover:bg-white hover:text-black transition duration-100 delay-100" href="#buss">Keep Exploring</a>
+  </div>
+  <div class="rounded-[30px] col-span-3 row-span-3">
+    <img class="lg:rounded-[30px] lg:w-[1500px] lg:h-[630px] p-2 items-center" src="/MobileApplicationUI.png" alt="">
+    <h1 class="text-sm text-center font-san p-2">I make mind map as the first step of brain storming the project for stakeholder.</h1>
+  </div>
+</div>
+
+<div class=" w-[1000px] h-[600px] bg-neutral-900 text-white items-center justify-center flex lg:hidden">
+  <div class=" rounded-[30px] p-2">
+    <div class="inline-block justify-between items-center">
+      <h5 class="text-4xl text-center font-bold p-2">Mind Map</h5>
+      <h1 class="text-sm text-center font-san p-2">I make mind map as the first step of brain storming the project for stakeholder.</h1>
+    <img class="rounded-[30px] h-[350px] p-2 items-center" src="/MobileApplicationUI.png" alt="">
     </div>
   </div>
 </div>
