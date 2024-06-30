@@ -25,10 +25,10 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
           <h5 class="lg:text-xl lg:text-left lg:font-bold lg:text-white">Personal Portfolio</h5>
           <ul>
             <li class="text-white">
-              <a class="p-4 hover:underline decoration-sky-400 underline-offset-4" href="#">Home</a>
-              <a class="p-4 hover:underline decoration-sky-400 underline-offset-4" href="#2nd">About</a>
-              <a class="p-4 hover:underline decoration-sky-400 underline-offset-4" href="#3rd">Skills</a>
-              <a class="p-4 hover:underline decoration-sky-400 underline-offset-4" href="#4th">Contact</a>
+              <a class="p-4 hover:underline decoration-violet-800 underline-offset-4" href="#">Home</a>
+              <a class="p-4 hover:underline decoration-violet-800 underline-offset-4" href="#2nd">About</a>
+              <a class="p-4 hover:underline decoration-violet-800 underline-offset-4" href="#3rd">Skills</a>
+              <a class="p-4 hover:underline decoration-violet-800 underline-offset-4" href="#4th">Contact</a>
             </li>
           </ul>
         </div>
@@ -38,9 +38,17 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
       <div
         class=" lg:bg-neutral-900 lg:text-white lg:rounded-[45px] lg:grid-cols-4 lg:grid-row-3 lg:grid lg:gap-2 lg:p-4 hidden">
         <div class="col-span-4 flex justify-around items-center p-8">
+          <a class="transition duration-200 delay-110 hover:scale-95">
           <img class="xl:w-[560px] lg:w-[450px] object-cover bg-transparent" src="/Profile.png">
+        </a>
           <div class="inlineblock">
-            <h5 class=" xl:text-6xl lg:text-5xl font-extrabold mb-10">DIGITAL PO AND BA</h5>
+            <p class="font-bold text-lg flex mb-4">Available for Work
+              <span class="relative flex h-4 w-4 ml-2">
+                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-100"></span>
+                <span class="relative inline-flex rounded-full h-4 w-4 bg-green-500"></span>
+              </span>
+            </p>
+            <h5 class=" xl:text-6xl lg:text-5xl font-extrabold mb-8">DIGITAL PO AND BA</h5>
             <h1 class="xl:text-5xl lg:text-4xl font-bold"> Lor ChingVey</h1>
             <p class="font-bold text-lg pt-4">- Introduction</p>
             <p class="text-3xl font-semibold pt-4"> Digital Product Owner and Business Analyst<span class="block"> based in Phnom Penh.</span>
@@ -78,6 +86,12 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
         <div class="flex justify-center items-center">
           <img class="w-72 sm:w-80 md:w-96 object-cover bg-transparent" src="/Profile.png">
         </div>
+        <p class="font-sans text-lg flex mt-4 text-center justify-center">Available for Work
+              <span class="relative flex h-4 w-4 ml-2">
+                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-100"></span>
+                <span class="relative inline-flex rounded-full h-4 w-4 bg-green-500"></span>
+              </span>
+            </p>
         <h1 class="text-5xl sm:text-4xl md:text-5xl font-bold text-center pt-7"> Lor ChingVey</h1>
         <p class="font-bold text-xl pt-2 text-center">- Introduction</p>
         <p class="text-md sm:text-xl md:text-2xl font-semibold pt-7 text-center">Product owner, Frontend Developer and Designer,
@@ -173,28 +187,28 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
         <li class="list-none text-xl font-bold">Project Management and Analyst Tools</li>
         <div class="flex items-center justify-center p-2 pt-7">
           <div
-            class="bg-neutral-900 hover:bg-neutral-700 border-[2px] border-sky-400 flex items-center p-2 rounded-lg mx-2">
+            class="bg-neutral-900 hover:bg-neutral-700 border-[2px] border-violet-800 flex items-center p-2 rounded-lg mx-2">
             <a class="flex items-center" href="https://www.figma.com/">
               <img class="w-[40px]" src="/figma-svgrepo-com.svg">
               <p class="text-white">Figma</p>
             </a>
           </div>
           <div
-            class="bg-neutral-900 hover:bg-neutral-700 border-[2px] border-sky-400 flex items-center p-2 rounded-lg mx-2">
+            class="bg-neutral-900 hover:bg-neutral-700 border-[2px] border-violet-800 flex items-center p-2 rounded-lg mx-2">
             <a class="flex items-center" href="https://xmind.app/">
               <img class="w-[40px] mr-2" src="/Xmind.svg">
               <p class="text-white">Xmind</p>
             </a>
           </div>
           <div
-            class="bg-neutral-900 hover:bg-neutral-700 border-[2px] border-sky-400 flex items-center p-2 rounded-lg mx-2">
+            class="bg-neutral-900 hover:bg-neutral-700 border-[2px] border-violet-800 flex items-center p-2 rounded-lg mx-2">
             <a class="flex items-center" href="https://www.odoo.com/">
               <img class="w-[40px] mr-2" src="/Odoo.svg">
               <p class="text-white">Odoo</p>
             </a>
           </div>
           <div
-            class="bg-neutral-900 hover:bg-neutral-700 border-[2px] border-sky-400 flex items-center p-2 rounded-lg mx-2">
+            class="bg-neutral-900 hover:bg-neutral-700 border-[2px] border-violet-800 flex items-center p-2 rounded-lg mx-2">
             <a class="flex items-center" href="https://en.wikipedia.org/wiki/JavaScript">
               <img class="w-[40px] mr-1" src="/js-svgrepo-com.svg">
               <p class="text-white">Javascript</p>
@@ -203,21 +217,21 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
         </div>
         <div class="flex items-center justify-center p-2">
           <div
-            class="bg-neutral-900 hover:bg-neutral-700 border-[2px] border-sky-400 flex items-center p-2 rounded-lg mx-2">
+            class="bg-neutral-900 hover:bg-neutral-700 border-[2px] border-violet-800 flex items-center p-2 rounded-lg mx-2">
             <a class="flex items-center" href="https://www.adobe.com/">
               <img class="w-[40px]" src="/adobe-illustrator-svgrepo-com.svg">
               <p class="text-white">Illutrator</p>
             </a>
           </div>
           <div
-            class="bg-neutral-900 hover:bg-neutral-700 border-[2px] border-sky-400 flex items-center p-2 rounded-lg mx-2">
+            class="bg-neutral-900 hover:bg-neutral-700 border-[2px] border-violet-800 flex items-center p-2 rounded-lg mx-2">
             <a class="flex items-center" href="https://tailwindcss.com/">
               <img class="w-[40px]" src="/tailwindcss-icon-svgrepo-com.svg">
               <p class="text-white">Tailwindcss</p>
             </a>
           </div>
           <div
-            class="bg-neutral-900 hover:bg-neutral-700 border-[2px] border-sky-400 flex items-center p-2 rounded-lg mx-2">
+            class="bg-neutral-900 hover:bg-neutral-700 border-[2px] border-violet-800 flex items-center p-2 rounded-lg mx-2">
             <a class="flex items-center" href="https://vuejs.org/">
               <img class="w-[40px]" src="/vue-svgrepo-com.svg">
               <p class="text-white">Vue.js</p>
@@ -305,25 +319,25 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
         class="text-center col-span-4 text-white dark:border-black dark:text-white">
         <li class="list-none text-xl font-bold pt-3">Programming and Design Tools</li>
         <div class="flex items-center justify-center pt-4">
-          <div class="bg-neutral-900 border-[1px] border-sky-400 flex items-center p-1.5 rounded-md sm:p-3 mx-1">
+          <div class="bg-neutral-900 border-[1px] border-violet-800 flex items-center p-1.5 rounded-md sm:p-3 mx-1">
             <a class="flex items-center" href="https://www.figma.com/">
               <img class="w-6" src="/figma-svgrepo-com.svg">
               <p class="text-white">Figma</p>
             </a>
           </div>
-          <div class="bg-neutral-900 border-[1px] border-sky-400 flex items-center p-1.5 rounded-md sm:p-3 mx-1">
+          <div class="bg-neutral-900 border-[1px] border-violet-800 flex items-center p-1.5 rounded-md sm:p-3 mx-1">
             <a class="flex items-center" href="https://en.wikipedia.org/wiki/HTML"><img class="w-6"
                 src="/Xmind.svg">
               <p class="text-white">Xmind</p>
             </a>
           </div>
-          <div class="bg-neutral-900 border-[1px] border-sky-400 flex items-center p-1.5 rounded-md sm:p-3 mx-1">
+          <div class="bg-neutral-900 border-[1px] border-violet-800 flex items-center p-1.5 rounded-md sm:p-3 mx-1">
             <a class="flex items-center" href="https://en.wikipedia.org/wiki/CSS">
               <img class="w-6" src="/Odoo.svg">
               <p class="text-white">Odoo</p>
             </a>
           </div>
-          <div class="bg-neutral-900 border-[1px] border-sky-400 flex items-center p-1.5 rounded-md sm:p-3 mx-1">
+          <div class="bg-neutral-900 border-[1px] border-violet-800 flex items-center p-1.5 rounded-md sm:p-3 mx-1">
             <a class="flex items-center" href="https://en.wikipedia.org/wiki/JavaScript">
               <img class="w-6" src="/js-svgrepo-com.svg">
               <p class="text-white">Javascript</p>
@@ -331,19 +345,19 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
           </div>
         </div>
         <div class="flex items-center justify-center p-1.5">
-          <div class="bg-neutral-900 border-[1px] border-sky-400 flex items-center  p-1.5 rounded-md sm:p-3 mx-1">
+          <div class="bg-neutral-900 border-[1px] border-violet-800 flex items-center  p-1.5 rounded-md sm:p-3 mx-1">
             <a class="flex items-center" href="https://www.adobe.com/">
               <img class="w-6" src="/adobe-illustrator-svgrepo-com.svg">
               <p class="text-white">Illutrator</p>
             </a>
           </div>
-          <div class="bg-neutral-900 border-[1px] border-sky-400 flex items-center p-1.5 rounded-md sm:p-3 mx-1">
+          <div class="bg-neutral-900 border-[1px] border-violet-800 flex items-center p-1.5 rounded-md sm:p-3 mx-1">
             <a class="flex items-center" href="https://tailwindcss.com/">
               <img class="w-6" src="/tailwindcss-icon-svgrepo-com.svg">
               <p class="text-white">Tailwindcss</p>
             </a>
           </div>
-          <div class="bg-neutral-900 border-[1px] border-sky-400 flex items-center p-1.5 rounded-md sm:p-3 mx-1">
+          <div class="bg-neutral-900 border-[1px] border-violet-800 flex items-center p-1.5 rounded-md sm:p-3 mx-1">
             <a class="flex items-center" href="https://vuejs.org/">
               <img class="w-6" src="/vue-svgrepo-com.svg">
               <p class="text-white">Vue.js</p>
