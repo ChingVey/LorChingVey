@@ -126,7 +126,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
         </div>
       </div>
       <div
-        class=" bg-white text-left row-span-3 rounded-r-[40px] text-black p-4 dark:bg-black dark:text-white">
+        class=" bg-white text-left row-span-3 rounded-r-[40px] text-black p-4">
         <h1 class="text-4xl font-bold pt-8">EXPERIENCES</h1>
 
     <div class="flex justify-center">
@@ -135,7 +135,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
     </a>
     </div>
       </div>
-      <div class=" bg-white text-black col-span-1 dark:bg-black dark:text-white">
+      <div class=" bg-white text-black col-span-1">
         <li class="list-none text-xl font-bold p-4">Personal Infomation</li>
         <div class="items-center p-4">
           <li class="text-sm list-none font-semibold">Gender: Male</li>
@@ -145,7 +145,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
         </div>
       </div>
       <div @click="isModalOpen = true"
-        class=" bg-white col-span-2 text-black p-4 cursor-pointer transition duration-200 delay-175 hover:scale-105 dark:bg-black dark:text-white">
+        class=" bg-white col-span-2 text-black p-4 cursor-pointer transition duration-200 delay-175 hover:scale-105">
         <div class="flex justify-between">
           <li class="list-none text-xl font-bold">Personal Summary</li>
           <svg class=" bg-black rounded-full -rotate-45 w-8 h-8 lg:w-16 lg:h-16  md:w-12 md:h-12"
@@ -171,7 +171,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
         </transition>
       </teleport>
 
-      <div class=" bg-white text-center rounded-bl-[40px] col-span-2 text-black p-4 dark:bg-black dark:text-white">
+      <div class=" bg-white text-center rounded-bl-[40px] col-span-2 text-black p-4">
         <li class="list-none text-xl font-bold">Project Management and Analyst Tools</li>
         <div class="flex items-center justify-center p-2 pt-7">
           <div
@@ -227,7 +227,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
           </div>
         </div>
       </div>
-      <div class=" bg-white text-black col-span-1 dark:bg-black dark:text-white">
+      <div class=" bg-white text-black col-span-1">
         <li class="list-none font-bold p-4 text-xl">Languages</li>
         <div class="items-center p-4">
           <li class="text-xs sm:text-sm font-semibold">Khmer (Native)</li>
@@ -256,13 +256,13 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
         </div>
       </div>
       <div
-        class="bg-white rounded-[15px] text-center row-span-2 col-span-2 text-black p-4 dark:bg-black dark:text-white">
+        class="bg-white rounded-[15px] text-center row-span-2 col-span-2 text-black p-4">
       <h1 class="text-2xl font-bold">EXPERINCES</h1>
     <div class="flex justify-center">
       <img class="w-screen h-full pt-4" src="/Skills.png">
     </div>
       </div>
-      <div class="bg-white rounded-[15px] text-left col-span-2 text-black dark:bg-black dark:text-white">
+      <div class="bg-white rounded-[15px] text-left col-span-2 text-black">
         <li class="list-none text-sm sm:text-xl font-bold p-4">Personal Infomation</li>
         <div class="items-center pl-4">
           <li class="text-xs sm:text-sm list-none font-semibold">Gender: Male</li>
@@ -271,14 +271,14 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
           <li class="text-xs sm:text-sm list-none font-semibold">Place of Birth: Unknown</li>
         </div>
       </div>
-      <div class="bg-white rounded-[15px] text-left col-span-2 text-black dark:bg-black dark:text-white">
+      <div class="bg-white rounded-[15px] text-left col-span-2 text-black">
         <li class="list-none text-sm font-bold p-4 sm:text-xl">Languages</li>
         <li class="text-xs sm:text-sm font-semibold pl-4">Khmer (Native)</li>
         <li class="text-xs sm:text-sm font-semibold pl-4">English Intermediate</li>
       </div>
 
       <div @click="isModalOpen = true"
-        class="cursor-pointer bg-white rounded-[15px] text-center col-span-4 text-black p-4 transition duration-200 delay-175 hover:scale-105 dark:bg-black dark:text-white">
+        class="cursor-pointer bg-white rounded-[15px] text-center col-span-4 text-black p-4 transition duration-200 delay-175 hover:scale-105">
         <div class=" flex justify-between items-center">
           <li class="list-none text-lg sm:text-xl md:text-2xl font-bold">Personal Summary</li>
           <svg class=" bg-black rounded-full -rotate-45 w-8 h-8 lg:w-16 lg:h-16  md:w-12 md:h-12"
