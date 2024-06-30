@@ -53,7 +53,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
             <p class="font-bold text-lg pt-4">- Introduction</p>
             <p class="text-3xl font-semibold pt-4"> Digital Product Owner and Business Analyst<span class="block">based in Phnom Penh.</span>
             </p>
-            <p class="text-md pt-4"><span class="text-4xl font-serif">"</span> Be Kind, Because at the end of the day only memories remain<span class="text-4xl font-serif">"</span> </p>
+            <p class="text-md pt-4"><span class="text-4xl font-serif">"</span>Be kind at the end of the day only memories remaining<span class="text-4xl font-serif">"</span> </p>
             <div class="flex pt-8">
               <a href="#2nd"
                 class="p-4 border border-1 hover:bg-white hover:text-black transition duration-100 delay-100 mr-3">Get to
@@ -78,7 +78,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
     </teleport>
 
     <div class=" w-[1000px] h-[1000px] bg-neutral-900 text-white inlineblock lg:hidden">
-      <div class="flex items-center justify-center text-center pt-4">
+      <div class="flex items-center justify-center text-center pt-6">
         <h5 class="text-7xl font-extrabold">DIGITAL</h5>
       </div>
       <div class="flex items-center justify-center text-center">
@@ -100,7 +100,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
         <p class="text-md sm:text-xl md:text-2xl font-semibold pt-7 text-center">Digital Product Owner and Business Analyst
         </p>
         <p class="text-md sm:text-xl md:text-2xl font-semibold text-center">Based in Phnom Penh.</p>
-        <p class="text-md text-center"><span class="text-4xl font-serif">"</span>For me willing to learn is a key to be mature <span class="text-4xl font-serif">"</span> </p>
+        <p class="text-md text-center"><span class="text-4xl font-serif">"</span>Be kind at the end of the day only memories remaining<span class="text-4xl font-serif">"</span> </p>
         <div class="flex pt-8 justify-center">
           <a href="#2nd" class="p-3 border border-1 transition duration-100 delay-100 mr-6">Get to Know me</a>
           <a @click="ModalOpen = true"
@@ -256,8 +256,8 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
       <div class=" rounded-[15px] col-span-4">
         <div class="text-center">
           <h5 class="text-4xl font-bold text-white">Hi, Im Vey.</h5>
-          <p class="text-sm font-sans pt-2">I am a student and full time product owner</p>
-          <p class="text-lg font-mono">I do agile, code and Design.<span class="text-3xl">👋🏻</span></p>
+          <p class="text-sm font-sans pt-2">I am a college student and a full time product owner</p>
+          <p class="text-lg font-mono">I do project management, code and Design.<span class="text-3xl">👋🏻</span></p>
         </div>
         <div class="flex justify-center items-start pt-4">
 
@@ -414,8 +414,8 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
       <a class="cursor-pointer p-4 ml-2 border border-1 hover:bg-white hover:text-black transition duration-100 delay-100" href="#user">Keep Exploring</a>
   </div>
   <div class="rounded-[30px] col-span-3 row-span-3">
-    <img class="lg:rounded-[30px] lg:w-[1500px] lg:h-[630px] p-2 items-center" src="/Businessflow.jpg" alt="">
-    <h1 class="text-sm text-center font-san p-2">This is the Business Flow Process which I anal</h1>
+    <img class="lg:rounded-[30px] lg:w-[1500px] lg:h-[630px] p-2 items-center" src="/Businessflow.png" alt="">
+    <h1 class="text-sm text-center font-san p-2">This is the Business Flow Process which I've drew for the development stakeholder, in order to offer them easier imagine on the requirement.</h1>
   </div>
 </div>
 
@@ -424,7 +424,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
     <div class="inline-block justify-center items-center">
       <h5 class="text-4xl text-center font-bold p-2">Business Flow</h5>
       <h1 class="text-sm text-center font-san p-2">A business process, business method, or business function is a collection of related, structured activities or tasks performed by people or equipment in which a specific sequence produces a service or product for a particular customer or customers.</h1>
-    <img class="rounded-[30px] h-[350px] sm:w-[1000px] p-2 items-center bg-violet-800 mt-4" src="/Businessflow.jpg" alt="">
+    <img class="rounded-[30px] h-[350px] sm:w-[1000px] p-2 items-center bg-violet-800 mt-4" src="/Businessflow.png" alt="">
     </div>
   </div>
 </div>
@@ -444,8 +444,8 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
       <a class="cursor-pointer p-4 ml-2 border border-1 hover:bg-white hover:text-black transition duration-100 delay-100" href="#4th">Keep Exploring</a>
   </div>
   <div class="rounded-[30px] col-span-3 row-span-3">
-    <img class="lg:rounded-[30px] lg:w-[1500px] lg:h-[630px] p-2 items-center" src="/MobileApplicationUI.png" alt="">
-    <h1 class="text-sm text-center font-san p-2">I make mind map as the first step of brain storming the project for stakeholder.</h1>
+    <img class="lg:rounded-[30px] lg:w-[1500px] lg:h-[630px] p-2 items-center" src="/Userstory.png" alt="">
+    <h1 class="text-sm text-center font-san p-2">This is a User Story and was built up for the purpose of describe the stakeholder requirment vision and detail every inches of information.</h1>
   </div>
 </div>
 
@@ -454,7 +454,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
     <div class="inline-block justify-between items-center">
       <h5 class="text-4xl text-center font-bold p-2">User Story</h5>
       <h1 class="text-sm text-center font-san p-2">In software development and product management, a user story is an informal, natural language description of features of a software system. They are written from the perspective of an end user or user of a system, and may be recorded on index cards, Post-it notes, or digitally in specific management software.</h1>
-    <img class="rounded-[30px] h-[350px] sm:w-[1000px] p-2 items-center bg-violet-800 mt-4" src="/MobileApplicationUI.png" alt="">
+    <img class="rounded-[30px] h-[350px] sm:w-[1000px] p-2 items-center bg-violet-800 mt-4" src="/Userstory.png" alt="">
     </div>
   </div>
 </div>
@@ -473,8 +473,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
         <div class="flex justify-between items-center">
           <h5 class="text-7xl text-left font-bold p-2">Contact</h5>
         </div>
-        <h1 class="text-xl text-left font-san pl-2 ">Here is my contact information</h1>
-        <h1 class="text-xl text-left font-sam pl-2 "></h1>
+        <h1 class="text-md text-left font-san pt-6 pl-2 ">I am glad you reach this contact information section, I hope we can get in touch with one another.</h1>
       </div>
 
       <div class=" bg-white rounded-[30px] col-span-2 p-4 flex justify-between">
