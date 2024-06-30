@@ -51,9 +51,9 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
             <h5 class=" xl:text-6xl lg:text-5xl font-extrabold mb-8">DIGITAL PO AND BA</h5>
             <h1 class="xl:text-5xl lg:text-4xl font-bold"> Lor ChingVey</h1>
             <p class="font-bold text-lg pt-4">- Introduction</p>
-            <p class="text-3xl font-semibold pt-4"> Digital Product Owner and Business Analyst<span class="block"> based in Phnom Penh.</span>
+            <p class="text-3xl font-semibold pt-4"> Digital Product Owner and Business Analyst<span class="block">based in Phnom Penh.</span>
             </p>
-            <p class="text-md pt-4"><span class="text-4xl font-serif">"</span> For me willing to learn is a key to be mature <span class="text-4xl font-serif">"</span> </p>
+            <p class="text-md pt-4"><span class="text-4xl font-serif">"</span> Be Kind, Because at the end of the day only memories remain<span class="text-4xl font-serif">"</span> </p>
             <div class="flex pt-8">
               <a href="#2nd"
                 class="p-4 border border-1 hover:bg-white hover:text-black transition duration-100 delay-100 mr-3">Get to
@@ -78,8 +78,11 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
     </teleport>
 
     <div class=" w-[1000px] h-[1000px] bg-neutral-900 text-white inlineblock lg:hidden">
-      <div class="flex items-center justify-center text-center py-8">
-        <h5 class="text-7xl font-extrabold">Product Owner</h5>
+      <div class="flex items-center justify-center text-center pt-4">
+        <h5 class="text-7xl font-extrabold">DIGITAL</h5>
+      </div>
+      <div class="flex items-center justify-center text-center">
+        <h5 class="text-sm font-extrabold">PRODUCT OWNER AND BUSINESS ANALYST</h5>
       </div>
 
       <div class="inlineblock pt-8">
@@ -94,11 +97,11 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
             </p>
         <h1 class="text-5xl sm:text-4xl md:text-5xl font-bold text-center pt-7"> Lor ChingVey</h1>
         <p class="font-bold text-xl pt-2 text-center">- Introduction</p>
-        <p class="text-md sm:text-xl md:text-2xl font-semibold pt-7 text-center">Product owner, Frontend Developer and Designer,
+        <p class="text-md sm:text-xl md:text-2xl font-semibold pt-7 text-center">Digital Product Owner and Business Analyst
         </p>
         <p class="text-md sm:text-xl md:text-2xl font-semibold text-center">Based in Phnom Penh.</p>
         <p class="text-md text-center"><span class="text-4xl font-serif">"</span>For me willing to learn is a key to be mature <span class="text-4xl font-serif">"</span> </p>
-        <div class="flex pt-4 justify-center">
+        <div class="flex pt-8 justify-center">
           <a href="#2nd" class="p-3 border border-1 transition duration-100 delay-100 mr-6">Get to Know me</a>
           <a @click="ModalOpen = true"
             class="cursor-pointer py-3 px-6 border border-1 transition duration-100 delay-100">Preview CV</a>
@@ -131,9 +134,9 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
           <h5 class="text-6xl text-left font-bold p-2">Hi, I'm Vey.</h5>
         </div>
         <div class="p-2">
-          <p class="text-lg font-sans">I am a student and full time product owner.</p>
+          <p class="text-lg font-sans">I am a college student and a full time digital product owner.</p>
           <div class="flex items-center">
-          <p class="text-2xl font-mono">I do agile, code and Design.<span class="text-6xl">👋🏻</span></p>
+          <p class="text-2xl font-mono">I do project management, code and Design.<span class="text-6xl">👋🏻</span></p>
         </div>
         </div>
       </div>
@@ -411,8 +414,8 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
       <a class="cursor-pointer p-4 ml-2 border border-1 hover:bg-white hover:text-black transition duration-100 delay-100" href="#user">Keep Exploring</a>
   </div>
   <div class="rounded-[30px] col-span-3 row-span-3">
-    <img class="lg:rounded-[30px] lg:w-[1500px] lg:h-[630px] p-2 items-center" src="/MobileApplicationUI.png" alt="">
-    <h1 class="text-sm text-center font-san p-2">I make mind map as the first step of brain storming the project for stakeholder.</h1>
+    <img class="lg:rounded-[30px] lg:w-[1500px] lg:h-[630px] p-2 items-center" src="/Businessflow.jpg" alt="">
+    <h1 class="text-sm text-center font-san p-2">This is the Business Flow Process which I anal</h1>
   </div>
 </div>
 
@@ -421,7 +424,7 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
     <div class="inline-block justify-center items-center">
       <h5 class="text-4xl text-center font-bold p-2">Business Flow</h5>
       <h1 class="text-sm text-center font-san p-2">A business process, business method, or business function is a collection of related, structured activities or tasks performed by people or equipment in which a specific sequence produces a service or product for a particular customer or customers.</h1>
-    <img class="rounded-[30px] h-[350px] sm:w-[1000px] p-2 items-center bg-violet-800 mt-4" src="/MobileApplicationUI.png" alt="">
+    <img class="rounded-[30px] h-[350px] sm:w-[1000px] p-2 items-center bg-violet-800 mt-4" src="/Businessflow.jpg" alt="">
     </div>
   </div>
 </div>
