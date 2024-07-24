@@ -469,15 +469,11 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
 
     <div
       class="lg:w-[1500px] lg:h-[800px] lg:bg-neutral-900 lg:text-white lg:rounded-[45px] lg:grid-cols-4 lg:grid lg:grid-rows-3 lg:gap-4 lg:p-4 hidden">
-      <div class=" rounded-[30px] col-span-2">
-        <div class="flex justify-between items-center">
-          <h5 class="text-7xl text-left font-bold p-2">Contact</h5>
+      <div class=" rounded-[30px] col-span-4">
+        <div class="flex justify-center items-center">
+          <h5 class="text-7xl text-center font-bold p-2">Contact</h5>
         </div>
-        <h1 class="text-md text-left font-san pt-6 pl-2 ">I am glad you reach this contact information section, I hope we can get in touch with one another.</h1>
-      </div>
-
-      <div class=" bg-white rounded-[30px] col-span-2 p-4 flex justify-between">
-        <h1 class="text-black font-bold text-7xl">Projects</h1>
+        <h1 class="text-xl text-center font-san pt-6 pl-2 ">I am glad you reach this contact information section, I hope we can get in touch with one another.</h1>
       </div>
 
       <a href="https://github.com/ChingVey"
@@ -498,8 +494,6 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
         <li class="list-none text-left pl-4 font-bold text-black">Phone</li>
       </a>
 
-      <div class=" bg-white rounded-[30px] text-center col-span-2 row-span-2">
-      </div>
 
       <a href="https://www.linkedin.com/in/lor-chingvey-126letsdoit29/"
         class=" bg-sky-300 rounded-[30px] text-center transition duration-200 delay-175 hover:scale-105 cursor-pointer">
@@ -519,6 +513,11 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
         <li class="list-none text-left pl-4 font-bold text-black">Telegram</li>
       </a>
 
+      <div class=" text-center col-span-4 pt-12">
+        <h1 class="text-xl text-white">All Rights Reserved.</h1>
+        <p class="text-6xl pt-10 font-bold">THANK YOU !</p>
+      </div>
+
     </div>
 
 
@@ -526,12 +525,11 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
       <div class=" rounded-[15px] col-span-2">
         <div class="flex justify-center items-center">
           <h5
-            class="text-7xl text-white font-bold mt-8">
+            class="text-7xl text-white font-bold mt-8 pl-6">
             Contact</h5>
         </div>
 
-        <h1 class="text-4xl text-left font-san pl-2"></h1>
-        <h1 class="text-4xl text-left font-sam pl-2"></h1>
+        <h1 class="text-md text-center font-san pt-6 pl-2 ">I am glad you reach this contact information section, I hope we can get in touch with one another.</h1>
       </div>
 
       <a href="https://github.com/ChingVey"
@@ -579,8 +577,8 @@ onClickOutside(modal, () => (ModalOpen1.value = false))
       </a>
 
       <div class=" text-center col-span-4 pt-12">
-        <h1 class="text-xl text-white">All Rights Reserved@</h1>
-        <p>Please View on large screen for a better a portfolio experience</p>
+        <h1 class="text-xl text-white">All Rights Reserved.</h1>
+        <p>Please View on large screen for a better a portfolio experience.</p>
       </div>
     </div>
 
